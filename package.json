@@ -1,0 +1,27 @@
+{
+  "name": "mqtt-repeater",
+  "version": "1.0.0",
+  "description": "Publishes messages that you have choice from a mqtt broker to another mqtt broker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inhedron/mqtt-repeater.git"
+  },
+  "keywords": [
+    "mqtt",
+    "repeater",
+    "pub-sub"
+  ],
+  "author": "Mehmet Aydemir <maydemirx@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/inhedron/mqtt-repeater/issues"
+  },
+  "homepage": "https://github.com/inhedron/mqtt-repeater#readme",
+  "dependencies": {
+    "mqtt": "^2.13.1"
+  }
+}
