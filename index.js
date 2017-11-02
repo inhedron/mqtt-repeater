@@ -6,15 +6,15 @@ const Repeater = require('./lib/repeater');
 
 function Application() {
     Loggable.call(this, 'main');
+    this.info("Initializing...");
     this._repeater = new Repeater();
-    this.debugInfo("Initializing...");
     this._repeater.initialize(function(err) {
         if (err) {
-            this.debugError("Application could not initialize!", err);
+            this.error("Application could not initialize!", err);
         } else {
-            this.debugError("Application is running");
+            this.info("Application is running");
         }
-    })
+    }.bind(this));
 }
 
 util.inherits(Application, Loggable);

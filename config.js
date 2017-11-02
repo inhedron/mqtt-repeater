@@ -30,7 +30,7 @@ module.exports = {
      * SUBSCRIPTIONS
      * subscribe list to exchange
      */
-    SUBSCRIPTIONS: ['#']
+    SUBSCRIPTIONS: process.env.SUBSCRIPTIONS || '["#"]'
 
 
 };
