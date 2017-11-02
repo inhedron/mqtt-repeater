@@ -1,7 +1,7 @@
 {
   "name": "mqtt-repeater",
   "version": "1.0.0",
-  "description": "Publishes messages that you have choice from a mqtt broker to another mqtt broker",
+  "description": "The repeater tool of the messages that you have chosen from a mqtt broker to another mqtt broker",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
